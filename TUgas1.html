@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Biodata</title>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li {
+        margin-left: 20px;
+      }
+      #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #header div {
+        flex: 1;
+        padding: 20px;
+      }
+      #biodata div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      #biodata div div {
+        width: 30%;
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+      #portofolio div {
+        display: inline-block;
+        /* border: 1px solid black; */
+      }
+      #portofolio div div {
+        width: 30%;
+        text-align: center;
+      }
+      img {
+        width: 50%;
+        height: auto;
+      }
+      #porto{
+        width: 100%;
+        text-align: center;
+      }
+      #port{
+        width: 30%;
+        text-align: center;
+      }
+      #tombol {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      #tombol:hover {
+        background-color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section 1: Menu -->
+    <section>
+      <nav>
+        <h1>Brand</h1>
+        <ul>
+          <li><a href="#header">Header</a></li>
+          <li><a href="#biodata">Biodata</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Section 2: Judul di kiri, deskripsi, tombol, gambar di kanan -->
+    <section id="header">
+      <div>
+        <h2>Selamat Datang di Website Saya</h2>
+        <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+        <a href="#" id="tombol">Klik Lebih Lanjut</a>
+      </div>
+      <div>
+        <img src="gambar.png" alt="Deskripsi Gambar" width="200px" height="20px">
+      </div>
+    </section>
+
+    <!-- Section 3: Biodata dengan 6 box -->
+    <section id="biodata">
+      <h2>About Me</h2>
+      <p>A brief introduction about myself.</p>
+      <div>
+        <div><span>Septian</span></div>
+        <div><span>S1 - Teknik Industri</span></div>
+        <div><span>Sales</span></div>
+        <div><span>085713218310</span></div>
+        <div><span>membaca</span></div>
+        <div><span>Surabaya</span></div>
+      </div>
+    </section>
+
+    <!-- Section 4: Portofolio dengan 3 box -->
+    <section id="portofolio">
+      <h2>Portofolio</h2>
+      <div id="porto">
+          <div class="port">
+            <img src="gambar.png" alt="Project 1" >
+            <h3>Projek 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui necessitatibus vitae in vel molestiae dolore ipsum maxime officiis aliquam dicta, asperiores at voluptates unde assumenda dolor quo corporis. Tenetur, ab.</p>
+          </div>
+          <div class="port">
+            <img src="gambar.png" alt="Project 2" >
+            <h3>Projek 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui necessitatibus vitae in vel molestiae dolore ipsum maxime officiis aliquam dicta, asperiores at voluptates unde assumenda dolor quo corporis. Tenetur, ab.</p>
+          </div>
+          <div class="port">  
+            <img src="gambar.png" alt="Project 3" >
+            <h3>Projek 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, alias laborum magnam quo tempore quia saepe modi rem, adipisci rerum pariatur perspiciatis illum quaerat facere possimus. Incidunt mollitia eveniet magnam.</p>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
